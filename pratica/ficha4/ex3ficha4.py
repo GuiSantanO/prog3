@@ -10,7 +10,7 @@ class Turma:
         self.contador = self.contador +1
 
     def listar(self):
-        if self.contador > 1 and self.contador < 1:
+        if self.contador > 1 and self.contador < 1: #if para verificar se a turma tem mais de 1 aluno
             print(f"A turma tem {self.contador} alunos")
 
         else:
